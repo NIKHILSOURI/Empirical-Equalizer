@@ -11,7 +11,7 @@ build/
 venv/
 env/
 
-# LaTeX intermediates
+# LaTeX
 *.aux
 *.log
 *.out
@@ -21,6 +21,8 @@ env/
 *.fdb_latexmk
 *.fls
 *.synctex.gz
+*.tex
+*.pdf
 
 # Generated data (reproduce via: python run_all.py)
 data/*.csv
