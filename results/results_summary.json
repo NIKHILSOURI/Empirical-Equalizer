@@ -1,0 +1,160 @@
+{
+  "regime_summary": {
+    "short_haul": {
+      "mean_rtt": 9.235150152519497,
+      "std_rtt": 1.642197848691137,
+      "mean_jitter": 1.3149863886721924,
+      "cv": 0.174243845328355
+    },
+    "regional": {
+      "mean_rtt": 43.358266374942815,
+      "std_rtt": 7.675052704445817,
+      "mean_jitter": 6.12575058192062,
+      "cv": 0.17607363022937852
+    },
+    "intercontinental": {
+      "mean_rtt": 180.95054645944765,
+      "std_rtt": 27.41768851821657,
+      "mean_jitter": 22.537203497156426,
+      "cv": 0.15461462685109986
+    }
+  },
+  "taxonomy": {
+    "excellent": {
+      "rtt_range": [
+        4.939361574617967,
+        8.427856904093687
+      ],
+      "rtt_typical": 6.438159742195178,
+      "jitter_typical": 0.8645782380237405,
+      "n_paths": 6
+    },
+    "good": {
+      "rtt_range": [
+        8.427856904093687,
+        32.51515223342325
+      ],
+      "rtt_typical": 14.663063226186862,
+      "jitter_typical": 2.1010614289138827,
+      "n_paths": 7
+    },
+    "average": {
+      "rtt_range": [
+        32.51515223342325,
+        50.00472043537566
+      ],
+      "rtt_typical": 41.767596004003565,
+      "jitter_typical": 5.9427570664704215,
+      "n_paths": 9
+    },
+    "poor": {
+      "rtt_range": [
+        50.00472043537566,
+        154.54260431181405
+      ],
+      "rtt_typical": 98.7568788836409,
+      "jitter_typical": 13.60356289409809,
+      "n_paths": 7
+    },
+    "very_poor": {
+      "rtt_range": [
+        154.54260431181405,
+        270.5333167219402
+      ],
+      "rtt_typical": 223.42589470854207,
+      "jitter_typical": 27.30437604650441,
+      "n_paths": 7
+    }
+  },
+  "comparison": {
+    "excellent": {
+      "empirical_rtt": 6.438159742195178,
+      "companion_rtt": 15.0,
+      "difference_pct": -57.07893505203214
+    },
+    "good": {
+      "empirical_rtt": 14.663063226186862,
+      "companion_rtt": 40.0,
+      "difference_pct": -63.34234193453284
+    },
+    "average": {
+      "empirical_rtt": 41.767596004003565,
+      "companion_rtt": 80.0,
+      "difference_pct": -47.790504994995544
+    },
+    "poor": {
+      "empirical_rtt": 98.7568788836409,
+      "companion_rtt": 150.0,
+      "difference_pct": -34.162080744239404
+    },
+    "very_poor": {
+      "empirical_rtt": 223.42589470854207,
+      "companion_rtt": 250.0,
+      "difference_pct": -10.62964211658317
+    }
+  },
+  "cross_validation_mawi": {
+    "ks_statistic": 0.1326,
+    "ks_pvalue": 1.0273602517478246e-38
+  },
+  "cross_validation_caida": {
+    "ks_statistic": 0.088,
+    "ks_pvalue": 2.917860118623863e-17,
+    "n_samples": 5577
+  },
+  "protocol_comparison": {
+    "ks_icmp_udp": {
+      "D": 0.091,
+      "p": 1.9768415225804654e-18
+    },
+    "ks_icmp_tcp": {
+      "D": 0.19,
+      "p": 2.75592071534876e-79
+    },
+    "max_diff_pct": 20.66366039575088,
+    "protocol_stats": {
+      "icmp": {
+        "short_haul": {
+          "mean_rtt": 9.220841036220902,
+          "mean_jitter": 1.287436584264181
+        },
+        "regional": {
+          "mean_rtt": 43.41272745747897,
+          "mean_jitter": 6.1301174594605135
+        },
+        "intercontinental": {
+          "mean_rtt": 180.54263341768447,
+          "mean_jitter": 22.692747413842188
+        }
+      },
+      "udp": {
+        "short_haul": {
+          "mean_rtt": 9.968110612719693,
+          "mean_jitter": 1.3819354061750204
+        },
+        "regional": {
+          "mean_rtt": 45.878487694031726,
+          "mean_jitter": 6.453638630960577
+        },
+        "intercontinental": {
+          "mean_rtt": 189.79763496687033,
+          "mean_jitter": 23.53675735315433
+        }
+      },
+      "tcp": {
+        "short_haul": {
+          "mean_rtt": 11.126204313577626,
+          "mean_jitter": 1.4537661775549415
+        },
+        "regional": {
+          "mean_rtt": 49.26132258593753,
+          "mean_jitter": 6.853036609420122
+        },
+        "intercontinental": {
+          "mean_rtt": 203.1918983353399,
+          "mean_jitter": 25.339761021780003
+        }
+      }
+    }
+  }
+}
