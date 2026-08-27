@@ -1,9 +1,5 @@
 # Empirical Characterization of Network Delay Variability Relevant to Real-Time Multiplayer Game Traffic
 
-**COMSNETS 2027 Submission** | Double-blind anonymous
-
-This repository contains the complete code, analysis pipeline, and paper source for an empirical study characterizing round-trip time (RTT) variability across 36 Internet paths spanning three distance regimes (short-haul, regional, intercontinental).
-
 ## Key Results
 
 - **36 paths** across 32 cities on 6 continents, measured over a **14-day** window
